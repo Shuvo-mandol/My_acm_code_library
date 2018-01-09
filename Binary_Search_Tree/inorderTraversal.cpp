@@ -36,9 +36,9 @@ void inorder(struct node * root)        // Inorder traversal
 {
     if(root)
     {
-        inorder(root->left);
-        cout<< root->data<<" ";
-        inorder(root->right);
+        inorder(root->left);           // Move to left sub tree
+        cout<< root->data<<" ";       // Root data
+        inorder(root->right);        // Move to right sub tree
     }
 }
 
