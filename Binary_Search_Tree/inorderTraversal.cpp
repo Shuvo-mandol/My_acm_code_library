@@ -32,7 +32,7 @@ struct node * insertNode(struct node * root, int data) // Function for inserting
     }
 };
 
-void inorder(struct node * root)        // Inorder traversal
+void inorder(struct node * root)         // Inorder traversal
 {
     if(root)
     {
