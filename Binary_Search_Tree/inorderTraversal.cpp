@@ -28,7 +28,7 @@ struct node * insertNode(struct node * root, int data) // Function for inserting
             root->left= insertNode(root->left, data);
         else
             root->right= insertNode(root->right, data);
-        return root;
+        //return root;
     }
 };
 
